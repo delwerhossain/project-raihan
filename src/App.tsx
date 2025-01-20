@@ -28,15 +28,14 @@ function App() {
         {/* Logo */}
         <div className="flex justify-center mb-20">
           <div className="flex items-center gap-2">
-            <Diamond size={32} className="text-blue-500" />
-            <span className="text-2xl font-bold">LogoSolve</span>
+            <img src="/public/logoslove.png" className="rounded-lg" alt="logoslove" />
           </div>
         </div>
 
      {/* Hero Section */}
-<div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+<div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
   {/* Profile Image */}
-  <div className="relative lg:col-span-2 aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-lg overflow-hidden">
+  <div className="relative lg:col-span-1 aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-lg overflow-hidden">
     <img
       src="./raihan.png"
       alt="Profile"
@@ -46,7 +45,7 @@ function App() {
   </div>
 
   {/* Content Section */}
-  <div className="lg:col-span-1 space-y-8">
+  <div className="lg:col-span-2 space-y-8">
     <div className="space-y-6">
       <h1 className="text-6xl font-bold">
         <span className="text-blue-500">Hi, I am</span>
