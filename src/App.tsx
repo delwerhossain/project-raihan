@@ -33,81 +33,81 @@ function App() {
           </div>
         </div>
 
-        {/* Hero Section */}
-        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
-          {/* Profile Image */}
-          <div className="relative aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-lg overflow-hidden">
-            <img
-              src="./raihan.png"
-              alt="Profile"
-              className="w-full h-full  hover:mix-blend-normal transition-all duration-300"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-          </div>
+     {/* Hero Section */}
+<div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+  {/* Profile Image */}
+  <div className="relative lg:col-span-2 aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-lg overflow-hidden">
+    <img
+      src="./raihan.png"
+      alt="Profile"
+      className="w-full h-full hover:mix-blend-normal transition-all duration-300"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+  </div>
 
-          {/* Content Section */}
-          <div className="lg:col-span-2 space-y-8">
-            <div className="space-y-6">
-              <h1 className="text-6xl font-bold">
-                <span className="text-blue-500">Hi, I am</span>
+  {/* Content Section */}
+  <div className="lg:col-span-1 space-y-8">
+    <div className="space-y-6">
+      <h1 className="text-6xl font-bold">
+        <span className="text-blue-500">Hi, I am</span>
+        <span className="ml-2"> Raihan</span>
+      </h1>
+      <h2 className="text-2xl text-gray-400">
+        A professional Logo & Brand Identity Designer
+      </h2>
+    </div>
 
-                <span className="ml-2"> Raihan</span>
-              </h1>
-              <h2 className="text-2xl text-gray-400">
-                A professional Logo & Brand Identity Designer
-              </h2>
-            </div>
-
-            {/* Portfolio Links */}
-            <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-blue-500">
-                My Portfolio:
-              </h3>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Dribbble className="text-blue-500" />
-                  <a
-                    href="https://dribbble.com/logosolve"
-                    className="block hover:text-blue-500 transition-colors"
-                  >logosolve</a>
-                </div>
-                <div className="flex items-center gap-3">
-                <img src="./behance.svg" alt="behance" />
-                  <a
-                    href="https://behance.net/logosolve"
-                    className="block hover:text-blue-500 transition-colors"
-                  >logosolve</a>
-                </div>
-              </div>
-            </div>
-
-            {/* Contact Info */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <Mail className="text-blue-500" />
-                <a
-                  href="mailto:raihanchy8421@gmail.com"
-                  className="hover:text-blue-500 transition-colors"
-                >
-                  raihanchy8421@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="text-blue-500" />
-                <a
-                  href="tel:+8801884276759"
-                  className="hover:text-blue-500 transition-colors"
-                >
-                  +88 01884276759
-                </a>
-              </div>
-            </div>
-          </div>
+    {/* Portfolio Links */}
+    <div className="space-y-4">
+      <h3 className="text-2xl font-bold text-blue-500">
+        My Portfolio:
+      </h3>
+      <div className="space-y-4">
+        <div className="flex items-center gap-3">
+          <Dribbble className="text-blue-500" />
+          <a
+            href="https://dribbble.com/logosolve"
+            className="block hover:text-blue-500 transition-colors"
+          >logosolve</a>
         </div>
+        <div className="flex items-center gap-3">
+          <img src="./behance.svg" alt="behance" />
+          <a
+            href="https://behance.net/logosolve"
+            className="block hover:text-blue-500 transition-colors"
+          >logosolve</a>
+        </div>
+      </div>
+    </div>
+
+    {/* Contact Info */}
+    <div className="space-y-4">
+      <div className="flex items-center gap-3">
+        <Mail className="text-blue-500" />
+        <a
+          href="mailto:raihanchy8421@gmail.com"
+          className="hover:text-blue-500 transition-colors"
+        >
+          raihanchy8421@gmail.com
+        </a>
+      </div>
+      <div className="flex items-center gap-3">
+        <Phone className="text-blue-500" />
+        <a
+          href="tel:+8801884276759"
+          className="hover:text-blue-500 transition-colors"
+        >
+          +88 01884276759
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         {/* Logo Samples */}
         <div className="mt-32">
-          <h3 className="text-3xl font-bold text-center text-blue-500 mb-16">
+          <h3 className="lg:text-3xl text-xl  font-bold text-center text-blue-500 mb-16">
             Logo Sample
           </h3>
           <img
