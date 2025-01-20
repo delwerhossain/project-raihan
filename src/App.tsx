@@ -38,7 +38,7 @@ function App() {
           {/* Profile Image */}
           <div className="relative aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-lg overflow-hidden">
             <img
-              src="/public/raihan.png"
+              src="./raihan.png"
               alt="Profile"
               className="w-full h-full  hover:mix-blend-normal transition-all duration-300"
             />
@@ -72,7 +72,7 @@ function App() {
                   >logosolve</a>
                 </div>
                 <div className="flex items-center gap-3">
-                <img src="./public/behance.svg" alt="behance" />
+                <img src="./behance.svg" alt="behance" />
                   <a
                     href="https://behance.net/logosolve"
                     className="block hover:text-blue-500 transition-colors"
@@ -111,7 +111,7 @@ function App() {
             Logo Sample
           </h3>
           <img
-            src="/public/logo.png"
+            src="./logo.png"
             alt="logo sample"
             className="mx-auto rounded-2xl"
           />
