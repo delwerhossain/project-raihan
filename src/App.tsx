@@ -28,7 +28,7 @@ function App() {
         {/* Logo */}
         <div className="flex justify-center mb-20">
           <div className="flex items-center gap-2">
-            <img src="/public/logoslove.png" className="rounded-lg w-1/3 mx-auto" alt="logoslove" />
+            <img src="./logoslove.png" className="rounded-lg w-1/3 mx-auto" alt="logoslove" />
           </div>
         </div>
 
